@@ -1,5 +1,9 @@
-# C files
-*.out
 
-# Folders
-/.idea/
+# ignore folders
+.idea/
+.gradle/
+gradle
+out/
+
+# ignore certain types
+*.class
