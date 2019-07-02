@@ -1,0 +1,7 @@
+package com.xc.chap4.Absyn;
+import com.xc.chap4.Symbol.Symbol;
+public class ArrayExp extends Exp {
+   public Symbol typ;
+   public Exp size, init;
+   public ArrayExp(int p, Symbol t, Exp s, Exp i) {pos=p; typ=t; size=s; init=i;}
+}
